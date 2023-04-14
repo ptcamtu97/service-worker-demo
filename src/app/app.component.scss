@@ -1,0 +1,33 @@
+.card-item {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(200px, 1fr));
+  grid-template-rows: auto;
+  gap: 20px;
+  div {
+    border: 1px solid palevioletred;
+    box-shadow: 8px 8px 20px gray;
+    padding: 20px;
+  }
+}
+
+.action {
+  margin: 20px;
+
+  button {
+    padding: 15px;
+    font-size: 20px;
+    border: 2px dotted palevioletred;
+    color: purple;
+    background-color: #fce0e5;
+    // cursor: url('../assets/icons/cat2.gif'), auto;
+  }
+
+  button:hover {
+    font-weight: 700;
+  }
+}
+
+h1 {
+  color: rgb(255, 113, 113);
+  margin: 20px;
+}
